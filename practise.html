@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="/result.html" method="get">
+        <fieldset>
+            <legend>personlia</legend>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" ><br>
+        <label for="password">password</label>
+        <input type="password" id="pwd" name="pwd" value="symzy"><br>
+        <p>select element</p>
+        <label for="car">choose a car</label>
+        <select id="cars" name="cars">
+            <option value="volvo">volvo</option>
+            <option value="toyota">toyota</option>
+            <option value="nissan">nissan</option>   
+            <option value="lexus">lexus</option>
+            <option value="mazda">mazda</option>
+        </select><br>
+        <p>textarea</p><br>
+        <textarea name="message" rows="10" cols="30">greatness</textarea>
+       </fieldset>
+        <p>datalist:</p><br>
+        <input list="browers" name="browers">
+        <datalist id="browers">
+            <option value="google">
+            <option value="chrome">
+            <option value="safari">
+            <option value="firefox" >
+        </datalist><br>
+        <p>Radio:</p><br>
+        <input type="radio" id="HTML" name="HTML" value="HTML">
+        <label for="HTML">HTML</label><br>
+        <input type="radio" id="CSS" name="CSS" value="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="radio" id="JavaScript" name="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br>
+        <p>checkbox:</p><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+        <label for="vehicle2">I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="truck">
+        <label for="vehicle3">I have a truck</label><br>
+        <button>click me!!!</button><br>
+        <button>submit</button>
+        <button>reset</button>
+    </form>
+</body>
+</html>
