@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<style>
+    #container {
+        border:1px solid blue;
+        text-align: center;
+        background-color: blue;
+        color: white;
+      }
+      #main{
+        background-color: white;
+        border: 15px solid white;
+        width: 100%;
+        color:grey;
+      }
+      .btn {
+        background-color:blue;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        text: size adjust 20px;;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+      .sub{
+        background-color:lightblue;
+        border-radius: 50px;
+        width: 300px;
+        text-align: center;
+        padding: 14px 0px;
+        border: 1px solid rgb(74, 180, 199);
+        <!-- height: 55px; -->
+      }
+      .mle{
+        background-color: blue;
+        border-radius:10px;
+        padding:5px 15px;
+
+      }
+</style>
+<body>
+    <div id="container">
+<h1>REGISTRATION FORM</h1>
+    </div>
+    <div id="main">
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" size="25">
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" id="lname" name="lname" size="25"><br><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" size="80"><br><br>
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="city" size="80"><br><br>
+            <label for="Country">Country</label><br>
+            <input type="text" id="Country" name="Country" size="80"><br><br>
+            <label for="gender">Gender</label><br>
+        <div class="sub">
+            <span class="mle">Male</span>
+            <span>Female</span>
+        </div><br>
+            <button type="submit" class="btn">REGISTER NOW</button>
+            
+        </form>
+    </div>
+</body>
+</html>

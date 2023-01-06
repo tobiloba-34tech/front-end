@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box ;
+        }
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+
+        #menu {
+            padding: 11px;
+    
+            height: 40px;
+    
+            width: 1333px;
+    
+            background:#F1F1F1;
+    
+            display: grid;
+    
+            grid-template-columns: auto auto auto auto auto;
+    
+            
+           }
+    
+             a {
+    
+              text-decoration: none;
+    
+              padding:3px;
+    
+              /* border-bottom: 2px grey; */
+    
+              color:black;
+    
+               }
+    
+              a#current {
+    
+              border-color:#F1F1F1;
+    
+              color:black;
+    
+              }
+    
+               a:hover {
+              text-decoration: none;
+    
+              border-color:#F1F1F1;
+    
+              color:black;
+
+               }
+
+
+
+               article {
+
+                text-align:center;
+        
+                padding: 10px;
+        
+                width: 79%;
+        
+                background-color: #f1f1f1;
+        
+                height: 450px;
+                margin-left: 200px;
+        
+              }
+
+
+              .button{
+                width: 100px;
+                text-align:center;
+              }
+
+
+              @media (max-width: 600px) {
+
+                menu, article {
+    
+                  width: 100%;
+    
+                  height: auto;
+    
+                }
+            }    
+
+        
+    </style>
+</head>
+<body>
+
+
+    <div id="menu">
+
+
+        <div style="margin-left:300px ;text-align:center"><button style="width:100px;border-color:black;">LOGO</button></div>
+
+        <div style="margin-left: 150px;"><a href="#">HOME</a></div>
+
+        <div style="margin-left:0px;"><a href="#">ABOUT</a></div>
+
+        <div style="margin-left:0px ;"><a href="#">SERVICES</a></div>
+
+        <div style="margin-left:0px ;"><a href="#">CONTACT</a></div>
+
+
+    </div>
+
+
+
+<article>
+
+    <h3>SIMPLE / BEAUTIFUL</h3>
+    <h1 style="font-size:50px ;">LANDING<br>PAGE</h1><br><br><br>
+
+
+    <p>LORIUM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPICING ELIT, SED DO EIUSMOD</p>
+    <P>TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.</P><br><br>
+
+<div id="button">
+
+<button>START LEARNING</button>
+
+</div>
+
+
+</article>
+
+</body>
+</html>

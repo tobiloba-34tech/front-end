@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ background-color: gray;
+ color:#333
+}
+ 
+p {
+ padding: 10px;
+}
+ 
+#wrapper {
+ margin: 0 auto;
+ width: 1000px;
+}
+ 
+#header {
+ float: left;
+ height: 75px;
+ width: 1000px;
+ background:grey;
+ text-align: center;
+ color: #FFFFFF;
+}
+ 
+#menu {
+ float: left;
+ height: 40px;
+ width: 1000px;
+ background:pink;
+ 
+}
+ 
+#content {
+ float: left;
+ background: #FFFFFF;
+ width: 750px;
+ margin-top: 8px;
+ margin-bottom: 8px;
+}
+
+ul#menutabs {
+list-style-type:none;
+margin:1px;
+margin-top: 8px;
+margin-bottom:8px ;
+padding: 8px 0;
+border-bottom: 1px grey;
+font-weight: bold;
+text-align: center;
+white-space: nowrap 
+}
+ul#menutabs li {
+display: inline;
+margin: 5 10px;
+color: purple;
+
+}
+
+nav {
+    float:right;
+    width: 20%;
+    height: 420px;
+    background:pink;
+    padding: 20px;
+    margin: top 8px;
+    margin: bottom 8px;
+  }
+  
+  nav ul {
+    list-style-type:circle;
+    padding: 1px;
+  }
+
+  footer {
+    background-color:#FFFFFF;
+    padding: 10px;
+    text-align:left;
+    color:black;
+    clear: both;
+  }
+ 
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+ 
+</style>
+</head>
+<body>
+    <section>
+ <div id="wrapper">
+ <div id="header">
+ <h1>Header</h1>
+ </div>
+ 
+ <div id="content">
+    <h1 style="text-align:center;">Article heading</h1>
+    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam harum corrupti. Ab dolorem doloremque unde magni, modi quasi quibusdam quaerat molestiae eligendi, sequi mollitia sint ipsa molestias, porro officia!</article>
+    <h2>subsection</h2>
+    <article>Donec ut liberero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa natus molestiae non labore aperiam cumque tenetur, minus dolore dolorem maiores ipsum libero, nam, obcaecati debitis cupiditate quibusdam! Consequatur, natus? </article><br>
+    <article>Peliensque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convillis libero in urna ultricices accumsan. Donec sed odio eros.</article>
+    <h3>Another subsection</h3>
+    <article>Donec viverra mi quis pulvinar at malesauda arcu rhoncus.Cum soclis natoque penatibus et manis dis parturient montes,nascetur ridiculus mus. In rutrum accumsan ultricies. Muaris vitae nisi et sem faciisis semper ac in est. </article><br>
+    <article>Vivamus fermentum sempor porta. Nunc diam velit,adipscing ut trisque vitae sagittis vel odio. Maecanas convallis ullamcorper ultricied. Curabitur ornare,ligula semper consectetur sagittis,nisi diam iacuiis velit,is fringille sem nunc vet mi </article>
+ </div>
+
+<nav>
+    <h1>Related</h1>
+    <ul>
+       <li><a href="#">Oh i do like to be beside the seaside</a></li>
+       <li><a href="#">Oh i do like to be beside the sea</a></li>
+       <li><a href="#">Although in the North of England</a></li>
+       <li><a href="#">It never stops raining</a></li>
+       <li><a href="#">Oh well...</a></li> 
+    </ul>
+</nav>
+<footer>
+  &copy;copyright 2050 by nobody. All right reserved.
+</footer>
+ </div>
+    </section>
+</body>
+</html>

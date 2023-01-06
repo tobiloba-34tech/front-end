@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * header {
+      background-color:pink;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+      nav {
+        float: left;
+        width: 30%;
+        background:light pink;
+        padding: 20px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color:lightblue;
+      }
+
+      aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+      }
+      
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer {
+        background-color:palevioletred;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+    }
+</style>
+<body>
+
+    <header>
+        <h1>country</h1>
+    </header>
+
+    <section>
+    <nav>
+        <ul>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">UK</a></li>
+            <li><a href="#">Canada</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>London</h1>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom,with a metropolitan area of over 13 inhabitants</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </article>
+    </section>
+
+    <aside>kaybi consult</aside>
+
+    <footer>
+        <p>footer</p>
+    </footer>
+
+</body>
+</html>

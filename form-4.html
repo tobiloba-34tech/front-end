@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<style>
+    #main{
+        background-color:white;
+        border: 15px white;
+        width: 100%;
+        color:black;
+      }
+      .btn {
+        background-color:green;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        text: size adjust 20px;;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+</style>
+<body>
+    <div id="main">
+        <form>
+            <h1>Zoo Keeper Application Form</h1>
+            <p>Please complete the form.Mandatory fields are marked with a *</p>
+            <fieldset>
+                <legend>CONTACT DETAILS</legend>
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" size="60"><br><br>
+                <label for="tel">Telephone</label>
+                <input type="tel" id="tel" name="tel"  size="60"><br><br>
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email"  size="60"><br><br>     
+            </fieldset>
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+                <label for="age">*Age</label>
+                <input type="text" id="age" name="age" size="60"><br><br>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="Female">Female</option>
+                    <option value="male">Male</option>
+                </select><br><br>
+                <label for="zoo">When did you first know you wanted to be a zoo-keeper</label>
+                <textarea id="zoo" name="zoo" style="width: 300px; height: 100px;"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>PICK YOUR FAVORITE ANIMALS</legend>
+                <input type="checkbox" id="zba" name="zba" value="zebra">
+                <label for="zba">zebra</label>
+                <input type="checkbox" id="cat" name="cat" value="cat">
+                <label for="cat">Cat</label>
+                <input type="checkbox" id="ana" name="ana" value="anaconda">
+                <label for="ana">Anaconda</label>
+                <input type="checkbox" id="hum" name="hum" value="human">
+                <label for="hum">Human</label><br><br>
+                <input type="checkbox" id="elt" name="elt" value="elephant">
+                <label for="elt">Elephant</label>
+                <input type="checkbox" id="wbt" name="wbt" value="wildebeest">
+                <label for="wbt">Wildebeest</label>
+                <input type="checkbox" id="pgn" name="pgn" value="pigeon">
+                <label for="pgn">Pigeon</label>
+                <input type="checkbox" id="crb" name="crb" value="crab">
+                <label for="crb">Crab</label>
+            </fieldset><br><br>
+            <button>Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
