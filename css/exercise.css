@@ -1,0 +1,17 @@
+body,h1,p{
+   background-image: url("coat.png");
+   background-position: center;
+   background-attachment: fixed;
+}
+   
+*.h1{
+    background-color: blue;
+}
+ .p{
+    background-color:lightblue;
+border-radius: 100px;
+ } 
+
+ *{
+    margin: 8px;
+ }
