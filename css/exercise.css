@@ -1,6 +1,6 @@
-body,h1,p{
+body{
    background-image: url("coat.png");
-   background-position: center;
+   background-position:right;
    background-attachment: fixed;
 }
    
