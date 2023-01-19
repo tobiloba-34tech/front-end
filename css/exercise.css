@@ -1,7 +1,8 @@
 body{
-   background-image: url("coat.png");
-   background-position:right;
+   background-image: url("/asset/coat.png");
+   background-position:center;
    background-attachment: fixed;
+   background-repeat:no-repeat ;
 }
    
 *.h1{
